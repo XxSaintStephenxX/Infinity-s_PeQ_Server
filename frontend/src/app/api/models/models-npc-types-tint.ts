@@ -1,0 +1,31 @@
+export interface ModelsNpcTypesTint {
+    blu_1_h?: number;
+    blu_2_c?: number;
+    blu_3_a?: number;
+    blu_4_b?: number;
+    blu_5_g?: number;
+    blu_6_l?: number;
+    blu_7_f?: number;
+    blu_8_x?: number;
+    blu_9_x?: number;
+    grn_1_h?: number;
+    grn_2_c?: number;
+    grn_3_a?: number;
+    grn_4_b?: number;
+    grn_5_g?: number;
+    grn_6_l?: number;
+    grn_7_f?: number;
+    grn_8_x?: number;
+    grn_9_x?: number;
+    id?: number;
+    red_1_h?: number;
+    red_2_c?: number;
+    red_3_a?: number;
+    red_4_b?: number;
+    red_5_g?: number;
+    red_6_l?: number;
+    red_7_f?: number;
+    red_8_x?: number;
+    red_9_x?: number;
+    tint_set_name?: string;
+}

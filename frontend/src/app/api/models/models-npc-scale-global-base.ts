@@ -1,0 +1,35 @@
+export interface ModelsNpcScaleGlobalBase {
+    ac?: number;
+    accuracy?: number;
+    agility?: number;
+    attack?: number;
+    attack_delay?: number;
+    avoidance?: number;
+    charisma?: number;
+    cold_resist?: number;
+    corruption_resist?: number;
+    dexterity?: number;
+    disease_resist?: number;
+    fire_resist?: number;
+    heal_scale?: number;
+    heroic_strikethrough?: number;
+    hp?: number;
+    hp_regen_per_second?: number;
+    hp_regen_rate?: number;
+    instance_version_list?: string;
+    intelligence?: number;
+    level?: number;
+    magic_resist?: number;
+    max_dmg?: number;
+    min_dmg?: number;
+    physical_resist?: number;
+    poison_resist?: number;
+    slow_mitigation?: number;
+    special_abilities?: string;
+    spell_scale?: number;
+    stamina?: number;
+    strength?: number;
+    type?: number;
+    wisdom?: number;
+    zone_id_list?: string;
+}

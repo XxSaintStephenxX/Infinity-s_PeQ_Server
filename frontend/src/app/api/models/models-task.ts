@@ -1,0 +1,37 @@
+import { ModelsAlternateCurrency } from './models-alternate-currency';
+import { ModelsTaskActivity } from './models-task-activity';
+import { ModelsTaskset } from './models-taskset';
+export interface ModelsTask {
+    alternate_currency?: ModelsAlternateCurrency;
+    cash_reward?: number;
+    completion_emote?: string;
+    description?: string;
+    duration?: number;
+    duration_code?: number;
+    dz_template_id?: number;
+    enabled?: number;
+    exp_reward?: number;
+    faction_amount?: number;
+    faction_reward?: number;
+    id?: number;
+    level_spread?: number;
+    lock_activity_id?: number;
+    max_level?: number;
+    max_players?: number;
+    min_level?: number;
+    min_players?: number;
+    repeatable?: number;
+    replay_timer_group?: number;
+    replay_timer_seconds?: number;
+    request_timer_group?: number;
+    request_timer_seconds?: number;
+    reward_id_list?: string;
+    reward_method?: number;
+    reward_point_type?: number;
+    reward_points?: number;
+    reward_text?: string;
+    task_activities?: Array<ModelsTaskActivity>;
+    tasksets?: Array<ModelsTaskset>;
+    title?: string;
+    type?: number;
+}

@@ -1,0 +1,36 @@
+import { ModelsItem } from './models-item';
+import { ModelsZone } from './models-zone';
+export interface ModelsObject {
+    charges?: number;
+    content_flags?: string;
+    content_flags_disabled?: string;
+    display_name?: string;
+    heading?: number;
+    icon?: number;
+    id?: number;
+    incline?: number;
+    item?: ModelsItem;
+    itemid?: number;
+    max_expansion?: number;
+    min_expansion?: number;
+    objectname?: string;
+    size?: number;
+    size_percentage?: number;
+    solid_type?: number;
+    tilt_x?: number;
+    tilt_y?: number;
+    type?: number;
+    unknown_24?: number;
+    unknown_60?: number;
+    unknown_64?: number;
+    unknown_68?: number;
+    unknown_72?: number;
+    unknown_76?: number;
+    unknown_84?: number;
+    version?: number;
+    xpos?: number;
+    ypos?: number;
+    zone?: ModelsZone;
+    zoneid?: number;
+    zpos?: number;
+}

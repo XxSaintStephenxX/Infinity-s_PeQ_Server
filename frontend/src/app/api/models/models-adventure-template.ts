@@ -1,0 +1,35 @@
+export interface ModelsAdventureTemplate {
+    assa_h?: number;
+    assa_x?: number;
+    assa_y?: number;
+    assa_z?: number;
+    dest_h?: number;
+    dest_x?: number;
+    dest_y?: number;
+    dest_z?: number;
+    duration?: number;
+    graveyard_radius?: string;
+    graveyard_x?: number;
+    graveyard_y?: number;
+    graveyard_z?: number;
+    graveyard_zone_id?: number;
+    id?: number;
+    is_hard?: number;
+    is_raid?: number;
+    lose_points?: number;
+    max_level?: number;
+    min_level?: number;
+    text?: string;
+    theme?: number;
+    type?: number;
+    type_count?: number;
+    type_data?: number;
+    win_points?: number;
+    zone?: string;
+    zone_in_object_id?: number;
+    zone_in_time?: number;
+    zone_in_x?: number;
+    zone_in_y?: number;
+    zone_in_zone_id?: number;
+    zone_version?: number;
+}

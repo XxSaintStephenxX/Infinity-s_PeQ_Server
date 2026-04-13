@@ -1,0 +1,38 @@
+export const DB_DIETIES = {
+  "65536": "Veeshan",
+  "32768": "Tunare",
+  "16384": "The Tribunal",
+  "8192": "Solusek Ro",
+  "4096": "Rodcet Nife",
+  "2048": "Rallos Zek",
+  "1024": "Quellious",
+  "512": "Prexus",
+  "256": "Mithaniel Marr",
+  "128": "Karana",
+  "64": "Innoruuk",
+  "32": "Bristlebane",
+  "16": "Erollisi Marr",
+  "8": "Cazic Thule",
+  "4": "Brell Serilis",
+  "2": "Bertoxxulous"
+};
+
+export const DB_DIETIES_FULL = {
+  140: { name: 'Agnostic', short: 'Agnostic', mask: 1, icon: 2347},
+  201: { name: 'Bertoxxulous', short: 'Bertox', mask: 2, icon: 2345},
+  202: { name: 'Brell Serilis', short: 'Brell', mask: 4, icon: 2254},
+  203: { name: 'Cazic Thule', short: 'Cazic', mask: 8, icon: 2255},
+  204: { name: 'Erollsi Marr', short: 'Erollsi', mask: 16, icon: 2256},
+  205: { name: 'Bristlebane', short: 'Bristle', mask: 32, icon: 2343},
+  206: { name: 'Innoruuk', short: 'Innoruuk', mask: 64, icon: 2257},
+  207: { name: 'Karana', short: 'Karana', mask: 128, icon: 2348},
+  208: { name: 'Mithaniel Marr', short: 'Mith.', mask: 256, icon: 2258},
+  209: { name: 'Prexus', short: 'Prexus', mask: 512, icon: 2259},
+  210: { name: 'Quellious', short: 'Quell.', mask: 1024, icon: 2260},
+  211: { name: 'Rallos Zek', short: 'Rallos', mask: 2048, icon: 2261},
+  212: { name: 'Rodcet Nife', short: 'Rodcet', mask: 4096, icon: 2262},
+  213: { name: 'Solusek Ro', short: 'Solusek', mask: 8192, icon: 2346},
+  214: { name: 'The Tribunal', short: 'Tribunal', mask: 16384, icon: 2263},
+  215: { name: 'Tunare', short: 'Tunare', mask: 32768, icon: 2342},
+  216: { name: 'Veeshan', short: 'Veeshan', mask: 65536, icon: 2344},
+};

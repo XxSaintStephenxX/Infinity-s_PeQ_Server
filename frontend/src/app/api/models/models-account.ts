@@ -1,0 +1,37 @@
+import { ModelsAccountFlag } from './models-account-flag';
+import { ModelsAccountIp } from './models-account-ip';
+import { ModelsAccountReward } from './models-account-reward';
+import { ModelsBugReport } from './models-bug-report';
+import { ModelsSharedbank } from './models-sharedbank';
+export interface ModelsAccount {
+    account_flags?: Array<ModelsAccountFlag>;
+    account_ips?: Array<ModelsAccountIp>;
+    account_rewards?: Array<ModelsAccountReward>;
+    auto_login_charname?: string;
+    ban_reason?: string;
+    bug_reports?: Array<ModelsBugReport>;
+    charname?: string;
+    crc_basedata?: string;
+    crc_eqgame?: string;
+    crc_skillcaps?: string;
+    flymode?: number;
+    gmspeed?: number;
+    hideme?: number;
+    id?: number;
+    ignore_tells?: number;
+    invulnerable?: number;
+    karma?: number;
+    ls_id?: string;
+    lsaccount_id?: number;
+    minilogin_ip?: string;
+    name?: string;
+    password?: string;
+    revoked?: number;
+    rulesflag?: number;
+    sharedbanks?: Array<ModelsSharedbank>;
+    sharedplat?: number;
+    status?: number;
+    suspend_reason?: string;
+    suspendeduntil?: string;
+    time_creation?: number;
+}
