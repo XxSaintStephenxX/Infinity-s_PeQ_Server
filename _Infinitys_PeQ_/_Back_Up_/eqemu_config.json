@@ -1,0 +1,105 @@
+{
+  "server": {
+    "zones": {
+      "defaultstatus": "0",
+      "ports": {
+        "low": "7000",
+        "high": "7400"
+      }
+    },
+    "qsdatabase": {
+      "db": "peq1",
+      "host": "peq1",
+      "port": "3306",
+      "username": "root",
+      "password": ""
+    },
+    "ucs": {
+      "host": "",
+      "port": "7778"
+    },
+    "world": {
+      "api": {
+        "enabled": false
+      },
+      "localaddress": "127.0.0.1",
+      "loginserver1": {
+        "port": "5998",
+        "account": "",
+        "password": "",
+        "host": "",
+        "legacy": "1"
+      },
+      "loginserver2": {
+        "account": "",
+        "password": "",
+        "host": "127.0.0.1",
+        "port": "5998"
+      },
+      "loginserver3": {
+        "account": "",
+        "password": "",
+        "host": "",
+        "port": "5998"
+      },
+      "tcp": {
+        "ip": "0.0.0.0",
+        "port": "9001"
+      },
+      "telnet": {
+        "ip": "0.0.0.0",
+        "port": "9000",
+        "enabled": "true"
+      },
+      "key": "somelongrandomstring12345asdfffff",
+      "shortname": "InfPeQ",
+      "longname": "Infinity's Project EQ"
+    },
+    "database": {
+      "db": "peq1",
+      "host": "127.0.0.1",
+      "port": "3306",
+      "username": "root",
+      "password": ""
+    },
+    "files": {
+      "opcodes": "assets/opcodes/opcodes.conf",
+      "mail_opcodes": "assets/opcodes/mail_opcodes.conf"
+    },
+    "directories": {
+      "patches": "assets/patches/",
+      "opcodes": "assets/opcodes/"
+    }
+  },
+  "web-admin": {
+    "version": "1.0.0",
+    "application": {
+      "admin": {
+        "password": ""
+      }
+    },
+    "launcher": {
+      "runSharedMemory": true,
+      "runLoginserver": false,
+      "runQueryServ": false,
+      "runUcs": true,
+      "isRunning": false,
+      "minZoneProcesses": 10,
+      "staticZones": "butcher,erudnext,freporte,qeynos,freeporte,oot,iceclad,nro,oasis,nedaria,abysmal,natimbi,timorous,firiona,overthere",
+      "updateOpcodesOnStart": true,
+      "deleteLogFilesOlderThanDays": 7
+    },
+    "quests": {
+      "hotReload": true
+    },
+    "serverCodePath": "/home/eqemu/code/"
+  },
+  "spire": {
+    "encryption_key": "000166a17f4cf85a84be6116b5f947572bb185f7db8bfcb03e82ec891b3d1144",
+    "http_port": 3007,
+    "launcher_start": false
+  },
+  "perl": {
+    "perl_file": "perl/bin/perl.exe"
+  }
+}
